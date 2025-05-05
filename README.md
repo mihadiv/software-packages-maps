@@ -64,5 +64,5 @@ The app will open in your default browser at [http://localhost:8501](http://loca
 ## 💡 Credits
 
 Built with [Streamlit](https://streamlit.io), [GeoPandas](https://geopandas.org/), and [Folium](https://python-visualization.github.io/folium/).
-
+GeoJSON map data from [Johan's World GeoJSON](https://github.com/johan/world.geo.json).
 Data compiled from Eurostat and other public sources.
