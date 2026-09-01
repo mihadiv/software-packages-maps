@@ -1,55 +1,37 @@
-# 🌍 Socio-Economic Indicators Map - European Union (Streamlit App)
+# 🌍 EU Socio-Economic Indicators Map
 
-This project visualizes various socio-economic indicators (e.g. unemployment rate, GDP per capita, education, life expectancy) across the **European Union** using an interactive Streamlit web application.
+An interactive Streamlit application for exploring and visualizing socio-economic indicators across European Union countries.
 
-It features:
-- Static maps with color gradients using **Matplotlib + GeoPandas**
-- Interactive maps with zoom, popups, and highlighting using **Folium**
-- Dropdowns for selecting indicators and countries
-- Pre-processed CSV data and country geometry in GeoJSON
+The project combines Python-based data analysis with static and interactive geospatial visualizations using GeoPandas, Matplotlib, and Folium.
 
 ---
 
-## 📦 Installation
+## ✨ Key Features
 
-Make sure you have **Python 3.8+** installed.
-
-1. Clone or download this repository:
-```bash
-git clone https://github.com/mihadiv/software-packages-maps.git
-cd software-packages-maps
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+- Interactive visualization of socio-economic indicators across EU countries
+- Static choropleth maps using GeoPandas and Matplotlib
+- Interactive maps with zoom, popups, and country highlighting using Folium
+- Indicator selection through an interactive Streamlit interface
+- Country-level filtering and exploration
+- Integration of CSV indicator data with GeoJSON country geometries
 
 ---
 
-## ▶️ Running the App
+## 🧰 Technologies Used
 
-Simply start the app with:
-
-```bash
-streamlit run main.py
-```
-
-The app will open in your default browser at [http://localhost:8501](http://localhost:8501)
-
----
-
-## 📁 Files
-
-- `main.py` – Main Streamlit app script
-- `Unemployment_rate_2023_EU.csv` – Input data with indicators by country
-- `countries.geo.json` – GeoJSON with country shapes
-- `requirements.txt` – Python dependencies
-- `README.md` – Project description
+- **Python**
+- **Streamlit**
+- **pandas**
+- **GeoPandas**
+- **Matplotlib**
+- **Folium**
+- **GeoJSON**
 
 ---
 
-## ✅ Indicators Included
+## 📊 Indicators
+
+The application includes the following socio-economic indicators:
 
 - Unemployment Rate
 - GDP per Capita
@@ -61,10 +43,64 @@ The app will open in your default browser at [http://localhost:8501](http://loca
 
 ---
 
-## 💡 Credits
+## 📁 Project Structure
 
-Built with [Streamlit](https://streamlit.io), [GeoPandas](https://geopandas.org/), and [Folium](https://python-visualization.github.io/folium/).
+| File | Description |
+|---|---|
+| `main.py` | Main Streamlit application |
+| `Unemployment_rate_2023_EU.csv` | Country-level socio-economic indicator data |
+| `countries.geo.json` | GeoJSON geometries used for map visualization |
+| `requirements.txt` | Python dependencies |
+| `README.md` | Project overview and setup instructions |
 
-GeoJSON map data from [Johan's World GeoJSON](https://github.com/johan/world.geo.json).
+---
 
-Data compiled from Eurostat and other public sources.
+## ▶️ Running the Application
+
+### Prerequisites
+
+Python 3.8 or later is required.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mihaeladivoiu/eu-socioeconomic-map.git
+cd eu-socioeconomic-map
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Start the Application
+
+```bash
+streamlit run main.py
+```
+
+The application will be available locally at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 📚 Data Sources
+
+Country geometry data is based on the [World GeoJSON dataset](https://github.com/johan/world.geo.json).
+
+Socio-economic indicator data was compiled from Eurostat and other public sources.
+
+---
+
+## 👩‍💻 Authors
+
+**Mihaela-Irina Divoiu**  
+**Daria-Mihaela Ducu**
+
+Academic project developed at the Bucharest University of Economic Studies, Faculty of Economic Cybernetics, Statistics and Informatics.
