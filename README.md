@@ -1,6 +1,6 @@
 # 🌍 EU Socio-Economic Indicators Map
 
-An interactive Streamlit application for exploring and visualizing socio-economic indicators across European Union countries.
+An interactive Streamlit application for exploring and visualizing socio-economic indicators across European countries.
 
 The project combines Python-based data analysis with static and interactive geospatial visualizations using GeoPandas, Matplotlib, and Folium.
 
@@ -8,7 +8,7 @@ The project combines Python-based data analysis with static and interactive geos
 
 ## ✨ Key Features
 
-- Interactive visualization of socio-economic indicators across EU countries
+- Interactive visualization of socio-economic indicators across European countries
 - Static choropleth maps using GeoPandas and Matplotlib
 - Interactive maps with zoom, popups, and country highlighting using Folium
 - Indicator selection through an interactive Streamlit interface
@@ -94,7 +94,7 @@ http://localhost:8501
 
 Country geometry data is based on the [World GeoJSON dataset](https://github.com/johan/world.geo.json).
 
-Socio-economic indicator data was compiled from Eurostat and other public sources.
+The socio-economic dataset contains country-level indicators used for academic data analysis and geospatial visualization.
 
 ---
 
